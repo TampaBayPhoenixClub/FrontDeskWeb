@@ -1,0 +1,70 @@
+@media screen and (min-width: 751px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .forms {
+    text-align: center;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #a74101;
+    padding: 1em;
+    margin-top: 3em;
+  }
+
+  .forms > input {
+    font-size: 1.25em;
+    padding: 0.25em;
+    margin: 0.5em;
+  }
+
+  .forms > button {
+    background-color: #a74101;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-self: center;
+    padding: 0.25em;
+    border-radius: 7px;
+  }
+  a {
+    color: #a74101;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0.3em;
+  }
+  #newMemberCheckbox {
+    border: 3px double #a74101;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0.65em 0;
+    /*border-style: ;*/
+  }
+  #newMemberCheckbox > h3 {
+    width: 100%;
+  }
+  .resultsOfSearch {
+    border: 3px solid #a74101;
+    margin: 0.25em;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .resultsOfSearch > label {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 1.1em;
+  }
+  .resultsOfSearch > h3 {
+    margin: 0.2em;
+  }
+  .banned {
+    color: #610000;
+  }
+}
