@@ -7,14 +7,13 @@
   }
   .forms {
     text-align: center;
-    /*width: 49vw;*/
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 3px solid #a74101;
     padding: 0.5em;
-    margin: 3em 0 0 0.1em;
+    margin: 3em 0 0 0.01em;
     width: 20.5em;
-    width: 95%;
   }
 
   .forms > input {
@@ -39,6 +38,7 @@
     margin: 0.3em;
   }
   .resultsOfSearch {
+    margin: 0.3em;
     border: 3px solid #a74101;
     align-items: center;
     display: grid;
@@ -47,10 +47,18 @@
   .resultsOfSearch > label {
     text-decoration: underline;
     font-weight: bolder;
-    font-size: 1.15em;
+    font-size: 1.1em;
     padding-left: 0.1em;
   }
   .resultsOfSearch > h3 {
     margin: 0.3em;
+  }
+  .banned {
+    color: #610000;
+  }
+  #searchResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

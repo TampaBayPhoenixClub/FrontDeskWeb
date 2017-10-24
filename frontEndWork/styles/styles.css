@@ -7,12 +7,15 @@
   }
   .forms {
     text-align: center;
-    width: 60vw;
+    width: 95%;
     display: flex;
     flex-direction: column;
     border: 3px solid #a74101;
     padding: 1em;
     margin-top: 3em;
+  }
+  .forms > h1 {
+    width: 100%;
   }
 
   .forms > input {
@@ -50,6 +53,7 @@
     width: 100%;
   }
   .resultsOfSearch {
+    width: 45%;
     border: 3px solid #a74101;
     margin: 0.25em;
     align-items: center;
@@ -66,5 +70,11 @@
   }
   .banned {
     color: #610000;
+  }
+  #searchResults {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
